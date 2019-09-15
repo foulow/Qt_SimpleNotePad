@@ -33,7 +33,7 @@ void MainWindow::on_actionNew_triggered()
             return;
         }
     }
-    currentFile = "Unknown";
+    currentFile = "Unknown ";
     setWindowTitle(currentFile);
     lastTextSaved.clear();
     ui->textEdit->setText(QString());
